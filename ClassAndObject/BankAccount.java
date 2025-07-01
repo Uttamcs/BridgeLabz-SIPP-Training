@@ -34,7 +34,7 @@ public class BankAccount {
     }
     
     public static void main(String[] args) {
-        BankAccount account = new BankAccount("John Doe", "ACC123456", 1000.0);
+        BankAccount account = new BankAccount("Uttam Kumar", "ACC123456", 1000.0);
         
         account.displayBalance();
         account.deposit(500.0);
